@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>夹染</title>
+    <link rel = 'stylesheet' href = '../css/common.css'>
+    <link rel = 'stylesheet' href = '../css/jiaran.css'>
+    <script src="../js/jiaran.js"></script>
+</head>
+<body onload="loadf()">
+    <img id="control" src="../imgs/pause.png" onclick="music()">
+    <audio id="vo2" src="../audio/inner.ogg"></audio>
+    <div class="bg" onclick="click2()"></div>
+    <img id="ban" src = '../imgs/jia/ban.png' onclick="click1()">
+    <img id="bright" src="../imgs/jia/ban-br.png">
+    <img id="ban2" src="../imgs/jia/ban.png">
+    <div>
+        <img id = 'word' src="../imgs/jia/jiaran_word.png">
+    </div>
+    <div id="bg2" class="bg_1">
+        <div id="title">
+            <div></div>
+            <div id="title_word">拖动夹子到布的位置</div>
+           <div></div> <!-- /* 利用弹性盒子设置标题文字水平垂直居中 */ -->
+        </div>
+        <div class="cloth">
+            <img id='cloth' src="../imgs/jia/cloth.png">
+            <img id='cloth1' src="../imgs/jia/cloth1.png">
+            <img id='cloth2' src="../imgs/jia/cloth2.png">
+            <img id='cloth3' src="../imgs/jia/cloth3.png">
+            <img id='cloth4' src="../imgs/jia/gang.png">
+            <img id='cloth5' src="../imgs/jia/item.png">
+        </div>
+        
+        <img id='button1' src="../imgs/button.png">
+        <img id='button3' src="../imgs/button.png">
+        
+        <audio id='vo' src="../audio/click.mp3"></audio>
+        <img id="jiazi" src="../imgs/jia/jiaran1.png">
+        <img id="gang" src="../imgs/jia/jiaran3.png">
+    </div>
+    <img id="ret" src="../imgs/ret.png" onclick="clickRet2()">
+</body>
+</html>

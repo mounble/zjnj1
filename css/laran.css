@@ -1,0 +1,179 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 640px;
+    height: 1030px;
+    overflow: hidden;
+}
+
+#bg {
+    position: absolute;
+    width: 640px;
+    height: 1030px;
+}
+
+#handle {
+    position: absolute;
+    opacity: 0%;
+    top: 140px;
+    left: 60px;
+    display: none;
+    transition: all 1.5s ease;
+}
+
+.slide-box {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+/*去掉滚动条*/
+.slide-box ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+#taskbar {
+    position: absolute;
+    left: 520px;
+    top: 10px;
+    transition: all 1s ease;
+}
+
+#la {
+    position: absolute;
+    left: 7px;
+    top: 696px;
+    z-index: 1;
+}
+
+#soybean {
+    position: absolute;
+    left: 166px;
+    top: 620px;
+    z-index: 1;
+}
+
+#la2 {
+    position: absolute;
+    left: 535px;
+    top: 180px;
+    width: 60px;
+    height: 60px;
+    display: none;
+    transition: all 1.5s ease;
+}
+
+#soybean2 {
+    position: absolute;
+    left: 535px;
+    top: 320px;
+    width: 70px;
+    height: 70px;
+    display: none;
+    transition: all 1.5s ease;
+}
+
+#la3 {
+    position: absolute;
+    left: 160px;
+    top: 650px;
+    width: 80px;
+    height: 80px;
+    opacity: 0%;
+    display: none;
+}
+
+#soybean3 {
+    position: absolute;
+    left: 280px;
+    top: 655px;
+    width: 80px;
+    height: 80px;
+    opacity: 0%;
+    display: none;
+}
+
+#vat3 {
+    position: absolute;
+    left: 410px;
+    top: 655px;
+    width: 70px;
+    height: 70px;
+    opacity: 0%;
+    display: none;
+}
+
+#intro1 {
+    position: absolute;
+    left: 30px;
+    top: 550px;
+    height: 150px;
+    width: 210px;
+    display: none;
+}
+
+#intro2 {
+    position: absolute;
+    left: 300px;
+    top: 680px;
+    height: 180px;
+    width: 280px;
+    display: none;
+}
+
+#shadow1 {
+    position: absolute;
+    animation: shadowDiv 2s ease infinite;
+}
+
+#shadow2 {
+    position: absolute;
+    animation: shadowDiv 2s ease infinite;
+}
+
+@keyframes shadowDiv {
+    0% {
+        opacity: 100%;
+    }
+
+    50% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+#bt_return {
+    position: absolute;
+    width: 25px;
+    height: 55px;
+    top: 736px;
+    left: 495px;
+    display: none;
+}
+
+#bt_return2 {
+    position: absolute;
+    width: 25px;
+    height: 55px;
+    top: 960px;
+    left: 600px;
+    z-index: 2;
+}
+#control{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    height: 25px;
+    z-index: 99;
+}

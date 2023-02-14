@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>扎染</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/zaran.css">
+    <script src="../js/zaran.js"></script>
+</head>
+<body onload="init()">
+    <img id="control" src="../imgs/pause.png" onclick="music()">
+    <audio id="vo2" loop="loop" src="../audio/inner.ogg"></audio>
+    <div id="bg" onclick="click2()"></div>
+    <img id="kun" src="../imgs//zaran/k1.png" onclick="click1()">
+    <img id="bright" src="../imgs/zaran/k1-br.png">
+    <img id="kun2" src="../imgs//zaran/a1.png">
+    <img id="word" src="../imgs/zaran/zaran_word.png">
+    <div id="window"> 
+        <div id="squa">
+            <img class="bg2" src="../imgs/zaran/bg.png">
+            <img class="bg2" src="../imgs/zaran/bg.png">
+            <img class="bg2" src="../imgs/zaran/bg.png">
+            <img class="bg2" src="../imgs/zaran/bg.png">
+        </div>
+        <div id="but">
+            <img id="k1" class="type" src="../imgs/zaran/k1.png" onclick="but(this,1)">
+            <img id="k2" class="type" src="../imgs/zaran/k2.png" onclick="but(this,2)">
+            <img id="k3" class="type" src="../imgs/zaran/k3.png" onclick="but(this,3)">
+            <img id="k4" class="type" src="../imgs/zaran/k4.png" onclick="but(this,4)">           
+        </div>
+        <img id="button" src="../imgs/zaran/button.png" onclick="click3()">
+        <img id="ret" src="../imgs/ret.png" onclick="back()">
+    </div>
+    <div id="window2">
+        <div id="title">
+            <div></div>
+            <div id="title_word">拖动绳子到布的位置</div>
+           <div></div> <!-- /* 利用弹性盒子设置标题文字水平垂直居中 */ -->
+        </div>
+        <div id="next">
+            <img id="cloth" src="../imgs/jia/cloth.png">
+            <img id="cloth2" src="../imgs/jia/item.png">
+        </div>
+        <div class="next3" id="btn">
+            <img id="rope" src="../imgs/zaran/rope.png">
+            <img id="gang" src="../imgs/jia/jiaran3.png">
+        </div>
+        <div class="next2">
+            <img class="bgsqua" src="../imgs/button.png">
+            <img class="bgsqua" src="../imgs/button.png">
+        </div>
+        <img id="ret" src="../imgs/ret.png" onclick="back2()">
+    </div>
+    <!-- 按钮声音 -->
+    <audio id="vo" src="../audio/click.mp3"></audio>
+    <img id="ret2" src="../imgs/ret.png" onclick="clickRet2()">
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>指尖凝结——中国传统印染技艺</title>
+    <link rel = 'stylesheet' href = '../css/index.css'>
+    
+</head>
+
+<body>
+    <img id="control" src="../imgs/pause.png" onclick="music()">
+    <audio id="vo" loop="loop" autoplay="autoplay" src="../audio/index.ogg"></audio>
+    <div class="slide-box">
+
+        <img class = 'bg' src="../imgs/bg.png" onclick="clickBg()">
+        <div id='house'>
+            <img id = 'click1' class = 'click' src="../imgs/house1.png" onclick="clickHouse(this,1)">
+            <img id = 'click2' class = 'click' src='../imgs/house2.png' onclick="clickHouse(this,2)">
+            <img id = 'click3' class = 'click' src='../imgs/house3.png' onclick="clickHouse(this,3)">
+            <img id = 'click4' class = 'click' src='../imgs/house4.png' onclick="clickHouse(this,4)">
+        </div>
+        <div id = 'intro1'>
+            <img id = 'introduction1' class = 'introduction' src = '../imgs/intro1.png'>
+            <img id = 'btn1' src = '../imgs/enter.png' onclick="shift(this,3)">
+        </div>    
+        <div id = 'intro2'>
+            <img id = 'introduction2' class = 'introduction' src = '../imgs/intro2.png'>
+            <img id = 'btn2' src = '../imgs/enter.png' onclick="shift(this,2)">
+        </div>    
+        <div id = 'intro3'>
+            <img id = 'introduction3' class = 'introduction' src = '../imgs/intro3.png'>
+            <img id = 'btn3' src = '../imgs/enter.png' onclick="shift(this,1)">
+        </div>    
+        <div id = 'intro4'>
+            <img id = 'introduction4' class = 'introduction' src = '../imgs/intro4.png'>
+            <img id = 'btn4' src = '../imgs/enter.png' onclick="shift(this,4)">
+        </div>  
+        <div id = 'cloud'>
+        </div> 
+        <div id = 'flower'>
+        </div>
+        
+    </div>
+    <script src = '../js/index.js'></script>
+    <!-- <canvas></canvas> -->
+</body>
+
+</html>
